@@ -1,0 +1,77 @@
+<html>
+    <body>
+    <head>
+        <title>Search bar - Datalist input</title>
+    </head>
+    <body>
+
+            <center>
+                
+                    <img src="Mad/Mad.png" width="0" height="310" margin="1000" alt="Mad">
+
+        <style>
+
+        
+        *{
+            margin:-50;
+            padding: 0;
+        }
+
+        body{
+            background-color:rgb(250, 250, 250);
+        }
+
+        .pesquisa{
+            width: 900px;
+            height: 70px;
+            margin: 49px auto;
+        }
+        #texto{
+            width: 950px;
+            height: 40px;
+            float: left;
+            font-family: 'Arial';
+            font-size: 30px;
+        }
+
+        .btn{
+
+            width: 20px;
+            height: 30px;
+            background-color: #2f4550;
+            padding: 5px 10px;
+            cursor: pointer;
+        }
+
+        #texto:focus{
+            border: solid 2px #2f4550;
+        }
+        
+        </style>
+        <script>
+            
+
+
+        </script>
+    </head>  
+    <body>
+
+        <hr size="3px" widht="20px" align="center" noshade>
+
+        <form class="pesquisa">
+
+            <input type="search" id="texto" list="historico"
+            placeholder="Pesquisar Linguagem...">
+            <datalist id="historico">
+                <option value ="Python"></option>
+                <option value ="HTML"></option>
+                <option value ="CSS"></option>
+                <option value ="Ruby"></option>
+
+                
+            </datalist>
+           
+        </form>
+    </body>
+    </body>
+</html>
