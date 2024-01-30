@@ -1,0 +1,10 @@
+C:\Users\alunoinfo\source\repos\Ex_25_11_2021\Ex_25_11_2021\bin\Debug\Ex_25_11_2021.exe.config
+C:\Users\alunoinfo\source\repos\Ex_25_11_2021\Ex_25_11_2021\bin\Debug\Ex_25_11_2021.exe
+C:\Users\alunoinfo\source\repos\Ex_25_11_2021\Ex_25_11_2021\bin\Debug\Ex_25_11_2021.pdb
+C:\Users\alunoinfo\source\repos\Ex_25_11_2021\Ex_25_11_2021\obj\Debug\Ex_25_11_2021.csproj.AssemblyReference.cache
+C:\Users\alunoinfo\source\repos\Ex_25_11_2021\Ex_25_11_2021\obj\Debug\Ex_25_11_2021.Form1.resources
+C:\Users\alunoinfo\source\repos\Ex_25_11_2021\Ex_25_11_2021\obj\Debug\Ex_25_11_2021.Properties.Resources.resources
+C:\Users\alunoinfo\source\repos\Ex_25_11_2021\Ex_25_11_2021\obj\Debug\Ex_25_11_2021.csproj.GenerateResource.cache
+C:\Users\alunoinfo\source\repos\Ex_25_11_2021\Ex_25_11_2021\obj\Debug\Ex_25_11_2021.csproj.CoreCompileInputs.cache
+C:\Users\alunoinfo\source\repos\Ex_25_11_2021\Ex_25_11_2021\obj\Debug\Ex_25_11_2021.exe
+C:\Users\alunoinfo\source\repos\Ex_25_11_2021\Ex_25_11_2021\obj\Debug\Ex_25_11_2021.pdb

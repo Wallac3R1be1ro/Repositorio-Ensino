@@ -1,0 +1,7 @@
+C:\Users\alunoinfo\source\repos\EX_28_substring\EX_28_substring\bin\Debug\EX_28_substring.exe.config
+C:\Users\alunoinfo\source\repos\EX_28_substring\EX_28_substring\bin\Debug\EX_28_substring.exe
+C:\Users\alunoinfo\source\repos\EX_28_substring\EX_28_substring\bin\Debug\EX_28_substring.pdb
+C:\Users\alunoinfo\source\repos\EX_28_substring\EX_28_substring\obj\Debug\EX_28_substring.csproj.AssemblyReference.cache
+C:\Users\alunoinfo\source\repos\EX_28_substring\EX_28_substring\obj\Debug\EX_28_substring.csproj.CoreCompileInputs.cache
+C:\Users\alunoinfo\source\repos\EX_28_substring\EX_28_substring\obj\Debug\EX_28_substring.exe
+C:\Users\alunoinfo\source\repos\EX_28_substring\EX_28_substring\obj\Debug\EX_28_substring.pdb
