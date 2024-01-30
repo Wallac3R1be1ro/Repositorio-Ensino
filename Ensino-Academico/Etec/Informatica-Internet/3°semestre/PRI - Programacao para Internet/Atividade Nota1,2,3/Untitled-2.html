@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html>
+    <head>
+          <title>Alunos Nota</title>
+
+    <meta charset="UTF-8">
+    <script type="text/javascript" >
+
+
+         // declaração do objeto
+         var Aluno = function() {
+             this.nome = null;
+             this.nota1 = null;
+             this.nota2 = null;
+             this.nota3 = null;
+             this.media = null;
+             this.calculaMedia=function(a1) {
+                return (a1.nota1+a1.nota2+a1.nota3) /2;
+             }
+         }
+
+         var alunos = [];
+
+         for(var i=0; i<2; i++){
+         
+         
+           // instância do objeto
+           a1 = new Aluno();
+
+
+
+           // declarando os valores
+           a1.nome = parseFloat(prompt("Digite o nome do aluno")); 
+           a1.nota1 =  parseFloat(prompt("Digite a nota 1"));
+           a1.nota2 =   parseFloat(prompt("Digite a nota 2"));
+           a1.nota3 =   parseFloat(prompt("Digite a nota 3"));
+           a1.media = a1.calculaMedia(a1); // calculando a média
+
+
+           // imprimindo o resultado
+           alunos.push(a1);
+
+        }
+
+          console.log(alunos);
+         
+
+       </script>
+ </head>
+<body>
+
+</body>
+</html>

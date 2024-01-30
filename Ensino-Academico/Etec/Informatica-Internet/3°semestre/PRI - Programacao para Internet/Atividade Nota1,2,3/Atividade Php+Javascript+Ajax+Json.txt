@@ -1,0 +1,20 @@
+Aula 19/02/20
+
+Atividade - Programação
+
+Nome:
+Nota1:
+Nota2:
+Nota3:
+
+[Calcular]
+
+Resultado:
+
+Fazer em:
+
+1- javascript + Ajax
+2- Javascript + Ajax + Php
+3- JavaScript + Ajax + Php + json
+
+
