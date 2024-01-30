@@ -1,0 +1,39 @@
+<?xml version="1.0"?>
+<flowgorithm fileversion="3.0">
+    <attributes>
+        <attribute name="name" value=""/>
+        <attribute name="authors" value="user1"/>
+        <attribute name="about" value=""/>
+        <attribute name="saved" value="2023-09-21 08:43:08 "/>
+        <attribute name="created" value="dXNlcjE7RDIzMC1NMTQ7MjAyMy0wOS0yMTsiMDY6NDc6MDkgIjsyMTM2"/>
+        <attribute name="edited" value="dXNlcjE7RDIzMC1NMTQ7MjAyMy0wOS0yMTsiMDg6NDM6MDggIjsxOzIyNDE="/>
+    </attributes>
+    <function name="Main" type="None" variable="">
+        <parameters/>
+        <body>
+            <comment text="Bubble Sorting Ordem Decresente"/>
+            <declare name="contador, contadorA, contadorB, buffer" type="Integer" array="False" size=""/>
+            <declare name="valores" type="Integer" array="True" size="20"/>
+            <for variable="contador" start="0" end="19" direction="inc" step="1">
+                <output expression="&quot;Digite um valor: &quot;" newline="True"/>
+                <input variable="valores[contador]"/>
+            </for>
+            <for variable="contadorA" start="0" end="19" direction="inc" step="1">
+                <for variable="contadorB" start="contadorA + 1" end="19" direction="inc" step="1">
+                    <if expression="valores[contadorA] &lt; valores[contadorB]">
+                        <then>
+                            <assign variable="buffer" expression="valores[contadorA]"/>
+                            <assign variable="valores[contadorA]" expression="valores[contadorB]"/>
+                            <assign variable="valores[contadorB]" expression="buffer"/>
+                        </then>
+                        <else/>
+                    </if>
+                </for>
+            </for>
+            <output expression="&quot;A ordem decresente &#233;: &quot;" newline="True"/>
+            <for variable="contador" start="0" end="19" direction="inc" step="1">
+                <output expression="valores[contador]" newline="True"/>
+            </for>
+        </body>
+    </function>
+</flowgorithm>

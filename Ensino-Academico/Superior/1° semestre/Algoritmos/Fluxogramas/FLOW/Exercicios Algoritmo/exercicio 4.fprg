@@ -1,0 +1,28 @@
+<?xml version="1.0"?>
+<flowgorithm fileversion="3.0">
+    <attributes>
+        <attribute name="name" value=""/>
+        <attribute name="authors" value="caio.santos"/>
+        <attribute name="about" value=""/>
+        <attribute name="saved" value="2023-08-25 10:01:28 "/>
+        <attribute name="created" value="Y2Fpby5zYW50b3M7TlZQLTEwNTsyMDIzLTA4LTI1OyIwOTo1MDowMyAiOzI3NTU="/>
+        <attribute name="edited" value="Y2Fpby5zYW50b3M7TlZQLTEwNTsyMDIzLTA4LTI1OyIxMDowMToyOCAiOzE7Mjg1OA=="/>
+    </attributes>
+    <function name="Main" type="None" variable="">
+        <parameters/>
+        <body>
+            <declare name="anoNascimento, anoAtual, idade" type="Integer" array="False" size=""/>
+            <output expression="&quot;Digite o ano que vc nasceu:&quot;" newline="True"/>
+            <input variable="anoNascimento"/>
+            <assign variable="anoAtual" expression="2023"/>
+            <assign variable="idade" expression="anoAtual - anoNascimento"/>
+            <if expression="idade&lt;30">
+                <then/>
+                <else>
+                    <output expression="&quot;Vc est&#225; ficando velho :(&quot;" newline="True"/>
+                </else>
+            </if>
+            <output expression="&quot;Sua idade &#233;:&quot;&amp; idade" newline="True"/>
+        </body>
+    </function>
+</flowgorithm>

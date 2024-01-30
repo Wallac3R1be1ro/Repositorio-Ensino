@@ -1,0 +1,40 @@
+<?xml version="1.0"?>
+<flowgorithm fileversion="3.0">
+    <attributes>
+        <attribute name="name" value=""/>
+        <attribute name="authors" value="user1"/>
+        <attribute name="about" value=""/>
+        <attribute name="saved" value="2023-08-24 08:13:55 "/>
+        <attribute name="created" value="dXNlcjE7RDIzMC1NMTQ7MjAyMy0wOC0yNDsiMDc6NDQ6MjkgIjsyMTM4"/>
+        <attribute name="edited" value="dXNlcjE7RDIzMC1NMTQ7MjAyMy0wOC0yNDsiMDg6MTM6NTUgIjsyOzIyNDM="/>
+    </attributes>
+    <function name="Main" type="None" variable="">
+        <parameters/>
+        <body>
+            <declare name="Temperatura" type="Integer" array="False" size=""/>
+            <while expression="true">
+                <output expression="&quot;Digite a Temperatura&quot;" newline="True"/>
+                <input variable="temperatura"/>
+                <breakpoint expression="" always="True"/>
+                <if expression="temperatura &gt;= 30">
+                    <then>
+                        <output expression="&quot;Liga o ar&quot;" newline="True"/>
+                        <output expression="&quot;Liga o ventilador&quot;" newline="True"/>
+                    </then>
+                    <else>
+                        <if expression="temperatura &gt;= 20">
+                            <then>
+                                <output expression="&quot;Liga o ventilador&quot;" newline="True"/>
+                                <output expression="&quot;Desliga o ar&quot;" newline="True"/>
+                            </then>
+                            <else>
+                                <output expression="&quot;Desliga ventilador&quot;" newline="True"/>
+                                <output expression="&quot;Desliga o ar&quot;" newline="True"/>
+                            </else>
+                        </if>
+                    </else>
+                </if>
+            </while>
+        </body>
+    </function>
+</flowgorithm>

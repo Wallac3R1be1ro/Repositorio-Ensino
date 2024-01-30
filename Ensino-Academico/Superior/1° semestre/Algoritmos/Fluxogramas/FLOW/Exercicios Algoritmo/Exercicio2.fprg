@@ -1,0 +1,39 @@
+<?xml version="1.0"?>
+<flowgorithm fileversion="2.11">
+    <attributes>
+        <attribute name="name" value=""/>
+        <attribute name="authors" value="thama"/>
+        <attribute name="about" value=""/>
+        <attribute name="saved" value="2023-09-28 08:28:10 "/>
+        <attribute name="created" value="dGhhbWE7TEFQVE9QLU9IRzdRR1JBOzIwMjMtMDktMTQ7IjA5OjMyOjI1ICI7MjgwNQ=="/>
+        <attribute name="edited" value="dGhhbWE7TEFQVE9QLU9IRzdRR1JBOzIwMjMtMDktMjE7IjA4OjMzOjQxICI7MTA7Mjk1Nw=="/>
+        <attribute name="edited" value="VGhhbWFyYSBTb3VzYTtERVNLVE9QLTRCNFFPSkE7MjAyMy0wOS0yODsiMDg6Mjg6MTAgIjs0OzM2MjA="/>
+    </attributes>
+    <function name="Main" type="None" variable="">
+        <parameters/>
+        <body>
+            <declare name="contador, contadorA, contadorB, buffer" type="Integer" array="False" size=""/>
+            <declare name="matrizNro" type="Integer" array="True" size="10"/>
+            <for variable="contador" start="0" end="9" direction="inc" step="1">
+                <output expression="&quot;Digite o: &quot; &amp; contador + 1 &amp; &quot;&#186;  valor&quot;" newline="True"/>
+                <input variable="matrizNro [contador]"/>
+            </for>
+            <for variable="contadorA" start="0" end="9" direction="inc" step="1">
+                <for variable="contadorB" start="contadorA + 1" end="9" direction="inc" step="1">
+                    <if expression="matrizNro[contadorA] &lt; matrizNro[contadorB]">
+                        <then>
+                            <assign variable="buffer" expression="matrizNro[contadorA]"/>
+                            <assign variable="matrizNro[contadorA]" expression="matrizNro[contadorB]"/>
+                            <assign variable="matrizNro[contadorB]" expression="buffer"/>
+                        </then>
+                        <else/>
+                    </if>
+                </for>
+            </for>
+            <output expression="&quot;O terceiro maior valor &#233;: &quot;" newline="True"/>
+            <for variable="contador" start="0" end="0" direction="inc" step="1">
+                <output expression="matrizNro[2]" newline="True"/>
+            </for>
+        </body>
+    </function>
+</flowgorithm>

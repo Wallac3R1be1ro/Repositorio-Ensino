@@ -1,0 +1,59 @@
+<?xml version="1.0"?>
+<flowgorithm fileversion="2.11">
+    <attributes>
+        <attribute name="name" value=""/>
+        <attribute name="authors" value="user1"/>
+        <attribute name="about" value=""/>
+        <attribute name="saved" value="2023-08-29 06:58:38 "/>
+        <attribute name="created" value="dXNlcjE7UDcwOC1NMTk7MjAyMy0wOC0yOTsiMDY6MzU6NTQgIjsyMTY3"/>
+        <attribute name="edited" value="dXNlcjE7UDcwOC1NMTk7MjAyMy0wOC0yOTsiMDY6NTg6MzggIjsyOzIyODM="/>
+    </attributes>
+    <function name="Main" type="None" variable="">
+        <parameters/>
+        <body>
+            <declare name="a, b, c, valorCrescente" type="Integer" array="False" size=""/>
+            <output expression="&quot;Digite um valor:&quot;" newline="True"/>
+            <input variable="a"/>
+            <output expression="&quot;Digite um valor:&quot;" newline="True"/>
+            <input variable="b"/>
+            <output expression="&quot;Digite um valor:&quot;" newline="False"/>
+            <input variable="c"/>
+            <if expression="a &gt; b &amp;&amp; b &gt; c">
+                <then>
+                    <output expression="&quot;A ordem crescente &#233;:&quot; &amp; c &amp; &quot;-&quot; &amp; b &amp; &quot;-&quot; &amp; a" newline="True"/>
+                </then>
+                <else>
+                    <if expression="c &gt; b &amp;&amp; b &gt; a">
+                        <then>
+                            <output expression="&quot;A ordem crescente &#233;:&quot; &amp; a &amp; &quot;-&quot; &amp; b &amp; &quot;-&quot; &amp; c" newline="True"/>
+                        </then>
+                        <else>
+                            <if expression="a &gt; c &amp;&amp; c &gt; b">
+                                <then>
+                                    <output expression="&quot;A ordem crescente &#233;:&quot; &amp; b &amp; &quot;-&quot; &amp; c &amp; &quot;-&quot; &amp; a" newline="True"/>
+                                </then>
+                                <else>
+                                    <if expression="b &gt; a &amp;&amp; a &gt; c">
+                                        <then>
+                                            <output expression="&quot;A ordem crescente &#233;:&quot; &amp; c &amp; &quot;-&quot; &amp; a &amp; &quot;-&quot; &amp; b" newline="True"/>
+                                        </then>
+                                        <else>
+                                            <if expression="b &gt; c &amp;&amp; c &gt; a">
+                                                <then>
+                                                    <output expression="&quot;A ordem crescente &#233;:&quot; &amp; a &amp; &quot;-&quot; &amp; c &amp; &quot;-&quot; &amp; b" newline="True"/>
+                                                </then>
+                                                <else>
+                                                    <output expression="&quot;A ordem crescente &#233;:&quot; &amp; b &amp; &quot;-&quot; &amp; a &amp; &quot;-&quot; &amp; c" newline="True"/>
+                                                </else>
+                                            </if>
+                                        </else>
+                                    </if>
+                                </else>
+                            </if>
+                        </else>
+                    </if>
+                </else>
+            </if>
+        </body>
+    </function>
+</flowgorithm>

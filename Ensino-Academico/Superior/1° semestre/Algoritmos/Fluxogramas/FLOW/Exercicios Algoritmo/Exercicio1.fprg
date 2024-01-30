@@ -1,0 +1,28 @@
+<?xml version="1.0"?>
+<flowgorithm fileversion="3.0">
+    <attributes>
+        <attribute name="name" value=""/>
+        <attribute name="authors" value="thama"/>
+        <attribute name="about" value=""/>
+        <attribute name="saved" value="2023-09-28 08:18:55 "/>
+        <attribute name="created" value="dGhhbWE7TEFQVE9QLU9IRzdRR1JBOzIwMjMtMDgtMjQ7IjA5OjQ4OjI4ICI7MjgxNQ=="/>
+        <attribute name="edited" value="dGhhbWE7TEFQVE9QLU9IRzdRR1JBOzIwMjMtMDgtMjU7IjA5OjU2OjQzICI7NDsyOTIz"/>
+        <attribute name="edited" value="Z2l1bGk7R0lVOzIwMjMtMDktMjg7IjA4OjE4OjU1ICI7NDsyMDg2"/>
+    </attributes>
+    <function name="Main" type="None" variable="">
+        <parameters/>
+        <body>
+            <declare name="dist, cent, met, jard, pol" type="Real" array="False" size=""/>
+            <output expression="&quot;Digite a dist&#226;ncia em milimetros (MM)&quot;" newline="True"/>
+            <input variable="dist"/>
+            <assign variable="cent" expression="dist / 10"/>
+            <assign variable="met" expression="dist / 1000"/>
+            <assign variable="jard" expression="dist / 914.40"/>
+            <assign variable="pol" expression="dist / 25.4"/>
+            <output expression="&quot;A dist&#226;ncia do valor(Mm): &quot; &amp; dist &amp; &quot; em Cent&#237;metros(Cm) &#233;: &quot; &amp; cent" newline="True"/>
+            <output expression="&quot;A dist&#226;ncia do valor(Mm): &quot; &amp; dist &amp; &quot; em Metros(M) &#233;: &quot; &amp; met" newline="True"/>
+            <output expression="&quot;A dist&#226;ncia do valor: &quot; &amp; dist &amp; &quot; em Jardas(J)&#233;: &quot; &amp; jard" newline="True"/>
+            <output expression="&quot;A dist&#226;ncia do valor: &quot; &amp; dist &amp; &quot; em Polegadas(P) &#233;: &quot; &amp; pol" newline="True"/>
+        </body>
+    </function>
+</flowgorithm>

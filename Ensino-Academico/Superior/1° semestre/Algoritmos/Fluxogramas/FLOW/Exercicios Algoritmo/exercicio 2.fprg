@@ -1,0 +1,30 @@
+<?xml version="1.0"?>
+<flowgorithm fileversion="3.0">
+    <attributes>
+        <attribute name="name" value=""/>
+        <attribute name="authors" value="user1"/>
+        <attribute name="about" value=""/>
+        <attribute name="saved" value="2023-08-24 10:14:22 "/>
+        <attribute name="created" value="dXNlcjE7RDIzMC1NMTQ7MjAyMy0wOC0yNDsiMTA6MDA6MTYgIjsyMTIw"/>
+        <attribute name="edited" value="dXNlcjE7RDIzMC1NMTQ7MjAyMy0wOC0yNDsiMTA6MTQ6MjIgIjsxOzIyMzA="/>
+    </attributes>
+    <function name="Main" type="None" variable="">
+        <parameters/>
+        <body>
+            <declare name="valor1, valor2, soma" type="Real" array="False" size=""/>
+            <output expression="&quot;Digite valor 1&quot;" newline="True"/>
+            <input variable="valor1"/>
+            <output expression="&quot;Digite valor 2&quot;" newline="True"/>
+            <input variable="valor2"/>
+            <assign variable="soma" expression="valor1 + valor2"/>
+            <if expression="soma&gt;=1">
+                <then>
+                    <output expression="&quot;Universidade&quot;" newline="True"/>
+                </then>
+                <else>
+                    <output expression="&quot;Metodista&quot;" newline="True"/>
+                </else>
+            </if>
+        </body>
+    </function>
+</flowgorithm>

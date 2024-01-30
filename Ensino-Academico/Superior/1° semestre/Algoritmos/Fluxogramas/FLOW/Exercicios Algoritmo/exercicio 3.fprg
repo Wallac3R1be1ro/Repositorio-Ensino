@@ -1,0 +1,23 @@
+<?xml version="1.0"?>
+<flowgorithm fileversion="3.0">
+    <attributes>
+        <attribute name="name" value=""/>
+        <attribute name="authors" value="caio.santos"/>
+        <attribute name="about" value=""/>
+        <attribute name="saved" value="2023-08-25 09:48:35 "/>
+        <attribute name="created" value="Y2Fpby5zYW50b3M7TlZQLTEwNTsyMDIzLTA4LTI1OyIwOTozMjowNyAiOzI3NTk="/>
+        <attribute name="edited" value="Y2Fpby5zYW50b3M7TlZQLTEwNTsyMDIzLTA4LTI1OyIwOTo0ODozNSAiOzE7Mjg3NQ=="/>
+    </attributes>
+    <function name="Main" type="None" variable="">
+        <parameters/>
+        <body>
+            <declare name="distanciaKm, litroCombustivel, media" type="Real" array="False" size=""/>
+            <output expression="&quot;Digite a distancia percorrida em KM:&quot;" newline="True"/>
+            <input variable="distanciaKm"/>
+            <output expression="&quot;Digite quantos litros foi abastecido&quot;" newline="True"/>
+            <input variable="litroCombustivel"/>
+            <assign variable="media" expression="distanciaKm/litroCombustivel"/>
+            <output expression="&quot;O consumo m&#233;dio &#233;:&quot; &amp; media" newline="True"/>
+        </body>
+    </function>
+</flowgorithm>

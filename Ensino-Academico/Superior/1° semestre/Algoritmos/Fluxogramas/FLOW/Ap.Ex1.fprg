@@ -1,0 +1,29 @@
+<?xml version="1.0"?>
+<flowgorithm fileversion="3.0">
+    <attributes>
+        <attribute name="name" value=""/>
+        <attribute name="authors" value="user1"/>
+        <attribute name="about" value=""/>
+        <attribute name="saved" value="2023-08-24 08:00:54 "/>
+        <attribute name="created" value="dXNlcjE7RDIzMC1NMTQ7MjAyMy0wOC0yNDsiMDc6NDQ6MjkgIjsyMTM4"/>
+        <attribute name="edited" value="dXNlcjE7RDIzMC1NMTQ7MjAyMy0wOC0yNDsiMDg6MDA6NTQgIjsxOzIyMzc="/>
+    </attributes>
+    <function name="Main" type="None" variable="">
+        <parameters/>
+        <body>
+            <declare name="Temperatura" type="Integer" array="False" size=""/>
+            <while expression="true">
+                <output expression="&quot;Digite a Temperatura&quot;" newline="True"/>
+                <input variable="temperatura"/>
+                <if expression="temperatura &lt; 30">
+                    <then>
+                        <output expression="&quot;Desliga o ar&quot;" newline="True"/>
+                    </then>
+                    <else>
+                        <output expression="&quot;Liga o ar&quot;" newline="True"/>
+                    </else>
+                </if>
+            </while>
+        </body>
+    </function>
+</flowgorithm>
