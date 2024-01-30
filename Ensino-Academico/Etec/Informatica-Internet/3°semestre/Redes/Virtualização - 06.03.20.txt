@@ -1,0 +1,24 @@
+Aula de Redes - 06/03/2020
+
+Virtualização
+
+- Hyper-V
+
+- VmWare
+
+- VirtualBox
+
+win2012std
+-------------
+CPU          |   CPU 24 CORES(NÚCLEOS)
+6COMES       |
+8GB RAM      |   32 GB RAM
+200 GB       |
+-------------|   1TB HD
+
+NOMEARQUIVO.ISO
+||
+\/
+Utilizar em
+uma máquina
+virtual.

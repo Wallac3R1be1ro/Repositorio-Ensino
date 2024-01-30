@@ -1,0 +1,23 @@
+Virtualização - Hyper V
+
+/--->Arquivo.Iso
+|
+|
+|
+|
+() Hyper-V
+|     |
+|     |Criar máquina virtual
+|     | (Nome,Memória Ram,HD,...)
+|     |
+|     |INCIAL
+|       -----
+|           |
+|           |Boot
+--------------
+             \------Carregar S.O
+
+
+
+Programa usado: Gerenciador Hyper-V
+
