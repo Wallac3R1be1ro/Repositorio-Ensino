@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+	<meta charset="UTF-8">
+	<title>Acessando DOM com JS</title>
+</head>
+<body>
+	<h1>Meu Título</h1>
+	
+	<p id="paragrafo">Meu Limão, Minha Limonada!</p>
+	
+	<ul id="Lista">
+		<li class="item">Item 1</li>
+		<li class="item">Item 2</li>
+		<li class="item">Item 3</li>
+		<li class="item">Item 4</li>
+	</ul>
+	
+	<ul id="Lista2">
+		<li class="item">Item 5</li>
+		<li class="item">Item 6</li>
+		<li class="item">Item 7</li>
+		<li class="item">Item 8</li>
+	</ul>
+	
+	<div id="container">
+	<p>Testando</p>
+	</div>
+	
+	<script>
+	/*
+		O DOM: Document Object Model é uma interface de programação para HTML,
+		podemos manipulá-lo através de tags, ids e classes.
+	*/
+	
+	//tag
+	var titulo = document.getElementsByTagName('h1')[0];
+	console.log(titulo);
+	
+	var lis = document.getElementsByTagName('li');
+	console.log(lis[3]);
+	
+	// id
+	var paragrafo = document.getElementById('paragrafo');
+	console.log(paragrafo);
+	
+	// class
+	var itensDaLista = document.getElementsByClassName('item');
+	console.log(itensDaLista);
+	
+	// Acessando o DOM atráves do querySelector e querySelectorAll;
+	
+	// querySelectorAll
+	
+	var itensQuery = document.querySelectorAll('#Lista2 li');
+	console.log(itensQuery);
+	
+	var itensQuery2 = document.querySelectorAll('#Lista2 .item');
+	console.log(itensQuery2);
+	
+	// querySelector
+	
+	var lista = document.querySelector('#lista');
+	console.log(lista);
+	
+	var primeiraLista = document.querySelector('ul');
+	console.log(primeiraLista);
+	
+	// Criando elemento div e class em js
+	
+	var el = document.createElement("div");
+	
+	el.classList = "div-criada";
+	console.log(el);
+	
+	var container = document.querySelector("#container");
+	
+	// Inserindo elemento na página
+	container.appendChild(el);
+	
+	// Outra forma de inserir na página com InserBefore
+	
+	var el2 = document.createElement("div");
+	
+	el2.classList = "div-before";
+	
+	var el3 = document.querySelector("#container .div-criada"); // Inserindo entre a div já existente
+	
+	console.log(el3);
+	
+	container.insertBefore(el2, el3);
+	
+	</script>
+</body>
+</html>

@@ -1,0 +1,15 @@
+Data Definition Language -
+* CREATE DATABASE
+* CREATE TABLE
+* ALTER TABLE
+* DROP TABLE
+
+Data Manipulation Language -
+* INSERT INTO
+* UPDATE
+* DELETE
+* TRUNCATE
+* SELECT
+
+Data Query Language -
+* SELECT

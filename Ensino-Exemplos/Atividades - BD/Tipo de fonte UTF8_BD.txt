@@ -1,0 +1,3 @@
+Ao criar um banco de dados novo no phpmyadmin é importante escolher a
+nomenclatura certa de letras, por padrão é: utf8_general_ci ou outras de
+preferência.

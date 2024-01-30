@@ -1,0 +1,10 @@
+C:\Users\walla_000\Documents\Estudos_T.I\Atividades - C#\1Aula - Conceitos_Csharp\1Aula - Conceitos_Csharp\bin\Debug\netcoreapp1.1\1Aula - Conceitos_Csharp.deps.json
+C:\Users\walla_000\Documents\Estudos_T.I\Atividades - C#\1Aula - Conceitos_Csharp\1Aula - Conceitos_Csharp\bin\Debug\netcoreapp1.1\1Aula - Conceitos_Csharp.runtimeconfig.json
+C:\Users\walla_000\Documents\Estudos_T.I\Atividades - C#\1Aula - Conceitos_Csharp\1Aula - Conceitos_Csharp\bin\Debug\netcoreapp1.1\1Aula - Conceitos_Csharp.runtimeconfig.dev.json
+C:\Users\walla_000\Documents\Estudos_T.I\Atividades - C#\1Aula - Conceitos_Csharp\1Aula - Conceitos_Csharp\bin\Debug\netcoreapp1.1\1Aula - Conceitos_Csharp.dll
+C:\Users\walla_000\Documents\Estudos_T.I\Atividades - C#\1Aula - Conceitos_Csharp\1Aula - Conceitos_Csharp\bin\Debug\netcoreapp1.1\1Aula - Conceitos_Csharp.pdb
+C:\Users\walla_000\Documents\Estudos_T.I\Atividades - C#\1Aula - Conceitos_Csharp\1Aula - Conceitos_Csharp\obj\Debug\netcoreapp1.1\1Aula - Conceitos_Csharp.csprojAssemblyReference.cache
+C:\Users\walla_000\Documents\Estudos_T.I\Atividades - C#\1Aula - Conceitos_Csharp\1Aula - Conceitos_Csharp\obj\Debug\netcoreapp1.1\1Aula - Conceitos_Csharp.csproj.CoreCompileInputs.cache
+C:\Users\walla_000\Documents\Estudos_T.I\Atividades - C#\1Aula - Conceitos_Csharp\1Aula - Conceitos_Csharp\obj\Debug\netcoreapp1.1\1Aula - Conceitos_Csharp.AssemblyInfo.cs
+C:\Users\walla_000\Documents\Estudos_T.I\Atividades - C#\1Aula - Conceitos_Csharp\1Aula - Conceitos_Csharp\obj\Debug\netcoreapp1.1\1Aula - Conceitos_Csharp.dll
+C:\Users\walla_000\Documents\Estudos_T.I\Atividades - C#\1Aula - Conceitos_Csharp\1Aula - Conceitos_Csharp\obj\Debug\netcoreapp1.1\1Aula - Conceitos_Csharp.pdb

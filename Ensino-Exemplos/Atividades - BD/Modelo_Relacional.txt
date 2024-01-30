@@ -1,0 +1,9 @@
+Modelo Relacional
+
+- O objetivo do Modelo Relacional é relacionar diferentes Entidades por meio de um Diagrama de fluxos, chamado de
+DIAGRAMA E-R ou DER.	
+- Uma Entidade em banco de dados é como se fosse um conteiner onde iremos colocar dados.
+- O termo dados pode ser nomeado ao termo atributos.
+- Dados são representados por atributos, esse conjuntos de atributos vão identificar:
+duplas, registros, informações armazenadas dentro da Entidade.
+- Quando uma outra chave primária vai para outro banco de dados, ela vira uma chave estrangeira.

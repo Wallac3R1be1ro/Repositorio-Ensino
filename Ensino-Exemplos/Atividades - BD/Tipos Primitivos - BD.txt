@@ -1,0 +1,16 @@
+Tipos Primitivos - Banco de Dados
+
+*Numéricos:
+- Inteiro: TinyInt, SmallInt, Int, Medium, BigInt.
+- Real: Decimal, Float, Double, Real.
+- Lógico: Bit, Boolean
+
+*Data/Tempo: Date, DateTime, TimeStamp, Time, Year.
+
+*Literal:
+- Caractere: Char, Varchar.
+- Texto: TinyText, Text, MediumText, LongBlob
+- Binário: TinyBlob, Blob, MediumBlob, LongBlob
+- Coleção: Enum, Set.
+
+*Espacial: Geometry, Point, Polygon, MultiPolygon.

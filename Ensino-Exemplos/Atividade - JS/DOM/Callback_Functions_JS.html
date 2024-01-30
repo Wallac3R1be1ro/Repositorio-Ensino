@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+	<meta charset="UTF-8">
+	<title>Callback Function JS</title>
+</head>
+<body>
+	<script>
+	
+		function exibir(num) {
+			console.log("A operação resultou em: " + num);
+		}
+		
+		function soma(a, b, callback) {
+			var op = a + b;
+			callback(op);
+		}
+		
+		function multiplicacao(a, b, cb) {
+			var op = a * b;
+			cb(op) // cb é a apreviação de callback, outros nomes podem ser usados também
+		}
+		
+		soma(2, 2, exibir);
+		
+		multiplicacao(2, 4, exibir);
+		
+		// setTimeout e setInterval
+		
+		/* Podemos com estas funções criar ações no software que executam depois
+		de um tempo ou de tempos em tempos; Um dos argumentos destas funções é uma
+		callback function;*/
+		
+	</script>
+</body>
+</html>

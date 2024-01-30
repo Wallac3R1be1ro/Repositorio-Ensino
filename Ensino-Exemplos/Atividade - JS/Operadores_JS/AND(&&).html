@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+	<meta charset="UTF-8">
+	<title> Operador Lógico AND&& </title>
+</head>
+<body>
+	<script>
+		<!--O Operador lógico && é conhecido também como AND;-->
+		<!--Ele vai retornar true apenas se as duas expressões retornarem true-->
+		<!--Qualquer outro resultado o operador lógico and retornará false-->
+		
+		var idade="20";
+		var nome="Wallace";
+		
+		if(nome == "Wallace" && idade == 20){
+			console.log("O Wallace pode entrar na aula")
+		} else {
+			console.log("Este não é o Wallace");
+		}
+		
+		if(1 == 1 && 3 > 2 && true) {
+			console.log("Passou");
+		}
+		
+		if((1 == 1 && 3 > 3) && true) {
+			console.log("Passou");
+		}else if(nome == "Wallace" && idade >= 14){
+			console.log("Você passou!");
+		}
+	</script>
+</body>
+</html>

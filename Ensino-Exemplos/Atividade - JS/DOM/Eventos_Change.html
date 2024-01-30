@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+<meta charset="UTF-8">
+<title>Eventos JS</title>
+</head>
+<body>
+	<select id="linguagens">
+		<option value="1">PHP</option>
+		<option value="2">JavaScript</option>
+		<option value="3">Java</option>
+		<option value="4">C#</option>
+	</select>
+	<script>
+		var linguagens = document.getElementById("linguagens");
+		
+		linguagens.addEventListener("change", function(){
+			var options = this.options;
+			var itemAtual = this.selectedIndex;
+			
+			console.log(options[itemAtual].text);
+		})
+	</script>
+</body>
+</html>

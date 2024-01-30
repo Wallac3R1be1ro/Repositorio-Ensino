@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+<meta charset="UTF-8">
+<title>Eventos JS</title>
+</head>
+<body>
+	
+	<input type = "text" id = "text">
+	<div id="result" style="display:none">é o enter</div>
+	<script>
+	var text = document.getElementById("text");
+	var result = document.getElementById("result");
+	
+	const TECLA_ENTER = 13;
+	
+	text.addEventListener("keypress", function(evento){
+		if(evento.KeyCode == TECLA_ENTER)
+		result.style.display = "block";
+	})
+	
+	</script>
+</body>
+</html>
