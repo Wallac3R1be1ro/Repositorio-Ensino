@@ -41,16 +41,16 @@ namespace Metodista.EsqueciSenha
                 tUsuario.Focus();
                 return;
             }
-            /*if (String.IsNullOrEmpty(tSenha.Text))
+            if (String.IsNullOrEmpty(tSenha.Text))
             {
                 MessageBox.Show("Digite a senha");
                 tSenha.Focus();
                 return;
-            }*/
-            if (String.IsNullOrEmpty(tSenha.Text))
+            }
+            if (String.IsNullOrEmpty(tSenhaNova.Text))
             {
                 MessageBox.Show("Digite a nova senha");
-                tSenha.Focus();
+                tSenhaNova.Focus();
                 return;
             }
 
@@ -69,10 +69,11 @@ namespace Metodista.EsqueciSenha
                     if (reader != null) { reader.Close(); reader = null; }
 
                     // preparando a query na tabela do banco de dados
-                    sql = "select * from tab_usuarios " +
-                          "update tab_usuarios" +
-                          "set senha = " + tSenha.Text +
-                          "where usuario = '" + tUsuario.Text + "'; ";
+                    sql = "update tab_usuarios" +
+                          "set senha = " + tSenhaNova.Text +
+                          "where " +
+                          "usuario = '" + tUsuario.Text + "' and " +
+                          "senha = '" + tSenha.Text + "'; ";
 
                     reader = db.SelectDados(sql);
 
@@ -81,33 +82,23 @@ namespace Metodista.EsqueciSenha
                         // fecha a conexao
                         db.conn.Close();
 
-                        /* esconder a tela de login
-                        Frm_Login.ActiveForm.Hide();
+                        //esconder a tela de login
+                        Frm_EsqueciSenha.ActiveForm.Hide();
 
-                        // abrir tela principal
+                        /* abrir tela principal
                         Frm_Principal principal = new Frm_Principal(tUsuario.Text);
-                        principal.ShowDialog();
+                        principal.ShowDialog();*/
 
                         // fechando a aplicacao
                         if (db.conn != null) { db.conn.Close(); db.conn = null; }
-                        Application.Exit();*/
-                        }
+                        Application.Exit();
+                    }
                         else
                         {
                             MessageBox.Show("Usuario/Senha não encontrado!");
                             return;
                         } 
                 }
-                // preparando a query na tabela do banco de dados
-                sql = "usar update";
-
-                // salvar o banco de dados (commit) criar o metodo na classe
-
-                // fechar o banco
-
-                // enviar msg para usuario de Usuario/Senha criada
-
-                // fechar o formulario
 
             }
             catch (MySqlException ex)
@@ -116,11 +107,6 @@ namespace Metodista.EsqueciSenha
                 if (db.conn != null) { db.conn.Close(); db.conn = null; }
                 return;
             }
-        }
-
-        private void Frm_EsqueciSenha_Load(object sender, EventArgs e)
-        {
-
         }
     }
 }

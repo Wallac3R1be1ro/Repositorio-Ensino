@@ -29,13 +29,15 @@
         private void InitializeComponent()
         {
             this.tNovaSenha = new System.Windows.Forms.Label();
-            this.tSenha = new System.Windows.Forms.TextBox();
+            this.tSenhaNova = new System.Windows.Forms.TextBox();
             this.btnNovaSenha = new System.Windows.Forms.Label();
             this.pictureBox1 = new System.Windows.Forms.PictureBox();
             this.label4 = new System.Windows.Forms.Label();
             this.label5 = new System.Windows.Forms.Label();
             this.tUsuario = new System.Windows.Forms.TextBox();
             this.label6 = new System.Windows.Forms.Label();
+            this.tSenha = new System.Windows.Forms.TextBox();
+            this.label1 = new System.Windows.Forms.Label();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
             this.SuspendLayout();
             // 
@@ -49,16 +51,16 @@
             this.tNovaSenha.TabIndex = 17;
             this.tNovaSenha.Text = "Digite Nova Senha:";
             // 
-            // tSenha
+            // tSenhaNova
             // 
-            this.tSenha.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
-            this.tSenha.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.tSenha.ForeColor = System.Drawing.Color.Navy;
-            this.tSenha.Location = new System.Drawing.Point(149, 183);
-            this.tSenha.Name = "tSenha";
-            this.tSenha.PasswordChar = '*';
-            this.tSenha.Size = new System.Drawing.Size(175, 23);
-            this.tSenha.TabIndex = 19;
+            this.tSenhaNova.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.tSenhaNova.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.tSenhaNova.ForeColor = System.Drawing.Color.Navy;
+            this.tSenhaNova.Location = new System.Drawing.Point(149, 183);
+            this.tSenhaNova.Name = "tSenhaNova";
+            this.tSenhaNova.PasswordChar = '*';
+            this.tSenhaNova.Size = new System.Drawing.Size(175, 23);
+            this.tSenhaNova.TabIndex = 19;
             // 
             // btnNovaSenha
             // 
@@ -113,7 +115,7 @@
             this.tUsuario.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
             this.tUsuario.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.tUsuario.ForeColor = System.Drawing.Color.Navy;
-            this.tUsuario.Location = new System.Drawing.Point(129, 138);
+            this.tUsuario.Location = new System.Drawing.Point(129, 111);
             this.tUsuario.Name = "tUsuario";
             this.tUsuario.Size = new System.Drawing.Size(195, 23);
             this.tUsuario.TabIndex = 24;
@@ -122,11 +124,32 @@
             // 
             this.label6.AutoSize = true;
             this.label6.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label6.Location = new System.Drawing.Point(12, 138);
+            this.label6.Location = new System.Drawing.Point(12, 111);
             this.label6.Name = "label6";
             this.label6.Size = new System.Drawing.Size(111, 17);
             this.label6.TabIndex = 23;
             this.label6.Text = "Digite o usuário:";
+            // 
+            // tSenha
+            // 
+            this.tSenha.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.tSenha.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.tSenha.ForeColor = System.Drawing.Color.Navy;
+            this.tSenha.Location = new System.Drawing.Point(158, 138);
+            this.tSenha.Name = "tSenha";
+            this.tSenha.PasswordChar = '*';
+            this.tSenha.Size = new System.Drawing.Size(175, 23);
+            this.tSenha.TabIndex = 26;
+            // 
+            // label1
+            // 
+            this.label1.AutoSize = true;
+            this.label1.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label1.Location = new System.Drawing.Point(12, 140);
+            this.label1.Name = "label1";
+            this.label1.Size = new System.Drawing.Size(140, 17);
+            this.label1.TabIndex = 25;
+            this.label1.Text = "Digite a Senha atual:";
             // 
             // Frm_EsqueciSenha
             // 
@@ -134,12 +157,14 @@
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.White;
             this.ClientSize = new System.Drawing.Size(386, 328);
+            this.Controls.Add(this.tSenha);
+            this.Controls.Add(this.label1);
             this.Controls.Add(this.tUsuario);
             this.Controls.Add(this.label6);
             this.Controls.Add(this.label5);
             this.Controls.Add(this.label4);
             this.Controls.Add(this.btnNovaSenha);
-            this.Controls.Add(this.tSenha);
+            this.Controls.Add(this.tSenhaNova);
             this.Controls.Add(this.tNovaSenha);
             this.Controls.Add(this.pictureBox1);
             this.ForeColor = System.Drawing.Color.Navy;
@@ -158,11 +183,13 @@
 
         private System.Windows.Forms.PictureBox pictureBox1;
         private System.Windows.Forms.Label tNovaSenha;
-        private System.Windows.Forms.TextBox tSenha;
+        private System.Windows.Forms.TextBox tSenhaNova;
         private System.Windows.Forms.Label btnNovaSenha;
         private System.Windows.Forms.Label label4;
         private System.Windows.Forms.Label label5;
         private System.Windows.Forms.TextBox tUsuario;
         private System.Windows.Forms.Label label6;
+        private System.Windows.Forms.TextBox tSenha;
+        private System.Windows.Forms.Label label1;
     }
 }
