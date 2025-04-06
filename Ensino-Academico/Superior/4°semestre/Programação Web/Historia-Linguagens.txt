@@ -1,0 +1,51 @@
+História das Linguagens
+- Plankalkul
+- Enac Coding System
+- C-10
+- Regional Assemply Language
+- Autocode
+- Fortran
+- Flow -Matic
+- Comtran
+- Lisp
+- Algol 58
+- Fact
+- Cobol
+- Simula
+- Basic
+- PL / 1
+- Pascal
+- Forth
+- C
+- Smalltalk
+- Prolog
+- ML
+- SQL
+- ADA
+- C++
+- MatLab
+- Eifeel
+- Objetive-C
+- Perl
+- FL
+- Haskell
+- Python
+- Java
+- R
+- Lua
+- Ansi Common Lisp
+- Delphi (Object Pascal)
+- JavaScript
+- PHP
+- Ruby
+- C#
+- ActionsScript
+- Scratch
+- JavaFX Script
+- PowerShell
+- GO
+- Julia
+- TypeScript
+- Swift
+- Hack
+- Q#

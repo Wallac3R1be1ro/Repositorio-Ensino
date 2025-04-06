@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">exercicio5</string>
+    <string name="tTitulo">Resolução Exercício 5</string>
+    <string name="imgQuestao">Enunciado do exercicio</string>
+    <string name="tMtzA">Matriz 4x5</string>
+    <string name="tMtzB">Matriz 5x2</string>
+    <string name="bCalc">Multiplicar matrizes</string>
+    <string name="tRes">Resultado da multiplicação da matriz 4x5 x 5x2</string>
+    <string name="bSair">Finalizar App</string>
+</resources>
