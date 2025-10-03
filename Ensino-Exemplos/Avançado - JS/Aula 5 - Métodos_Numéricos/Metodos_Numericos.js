@@ -1,13 +1,4 @@
-<!DOCTYPE html>
-<html lang="pt-br">
-<head>
-	<meta charset="UTF-8">
-	<title>Tipos de Métodos</title>
-</head>
-<body>
-	<script>
-	
-		//Métodos Numéricos
+//Métodos Numéricos
 		
 		// ParseFloat 10.0
 		
@@ -78,6 +69,3 @@
 		var tags = "PHP, JavaScript, HTML, CSS";
 		
 		console.log(tags.split(", "));
-	</script>
-</body>
-</html>

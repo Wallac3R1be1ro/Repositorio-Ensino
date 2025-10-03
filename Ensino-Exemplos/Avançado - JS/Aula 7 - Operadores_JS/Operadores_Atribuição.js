@@ -1,11 +1,4 @@
-<!DOCTYPE html>
-<html lang="pt-br">
-<head>
-	<meta charset="utf-8">
-	<title>Operadores de Atribuição</title>
-</head>
-<body>
-	<script>
+
 		/*
 			Temos algumas maneiras de atribuir um valor a uma variável;
 			As mais utlizadas são: +=, -=, *=, /=;
@@ -49,6 +42,3 @@
 			
 			x -= j;
 		}
-	</script>
-</body>
-</html>

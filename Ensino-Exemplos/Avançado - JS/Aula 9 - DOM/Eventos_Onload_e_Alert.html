@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+<meta charset="UTF-8">
+<title>Eventos JS</title>
+<body>
+	<script>
+		// Mensagem de alerta
+		/*window.onload = function() {
+			alert("Aguarde, página carregando...")
+		}*/
+
+		// Mensagem de confirmação
+		/*window.onload = function() {
+			confirm("Deseja realmente entrar nesta página?")
+		}*/
+
+		// Mensagem de digitação
+		/*window.onload = function() {
+			prompt("Deseja realmente entrar nesta página?")
+		}*/
+
+		// Exibir no console o valor digitado
+		let num1 = prompt("Digite um número:");
+		let num2 = prompt("Digite outro número:");
+
+		num1 = Number(num1);
+		num2 = Number(num2);
+
+		const resultado = num1 + num2;
+		alert(`O resultado da soma é: ${resultado}`);
+		
+
+		/*let click = confirm("Deseja realmente entrar nesta página?");
+		console.log(click);
+		if (click == true) {
+			alert("Bem-vindo à página!");
+		} else {
+			alert("Você não entrou na página!");
+		}*/
+
+	</script>
+</body>
+</html>

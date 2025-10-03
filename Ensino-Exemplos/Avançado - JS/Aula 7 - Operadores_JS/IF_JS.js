@@ -1,14 +1,4 @@
-<!DOCTYPE html>
-<html lang="pt-br">
-<head>
-	<meta charset="UTF-8">
-	<title>
-		Condicional IF_JS
-	</title>
-</head>
-	<body>
-	<script>
-	
+
 	/*Operadores condicionais são instruções que
 	podem determinar o fluxo de uma aplicação.
 	
@@ -54,6 +44,4 @@
 		if(nota1 < nota2){
 		console.log("Passou2!!!")
 		}
-	</script>
-	<body>
-</html>
+

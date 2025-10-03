@@ -1,12 +1,4 @@
-<!DOCTYPE html>
-<html lang="pt-br">
-<head>
-	<meta charset="UTF-8">
-	<title>Operador While JS</title>
-</head>
-<body>
-	<script>
-	
+
 		// Estruturas de repetição servem para repetir varias vezes uma operação;
 		// As estruturas mais comuns são: while e for;
 		// Neste tipo de estrtura é importante tomar cuidado com os loops infinitos.
@@ -42,7 +34,3 @@
 			
 			i++; // ou i += 1
 		}
-	
-	</script>
-</body>
-</html>

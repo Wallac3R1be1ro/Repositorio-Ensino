@@ -1,11 +1,4 @@
-<!DOCTYPE html>
-<html lang="pt-br">
-<head>
-	<meta charset="utf-8">
-	<title>Else e Else IF</title>
-</head>
-	<body>
-		<script>
+
 		/*Caso a instrução de if seja negativa, podemos adicionar else,
 		que será a outra condição a ser executada;
 		
@@ -32,8 +25,3 @@
 		}else if(idade >= 18) {
 			console.log("Ele não é autorizado");
 		}
-		
-		
-		</script>
-	</body>
-</html>

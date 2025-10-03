@@ -1,11 +1,4 @@
-<!DOCTYPE html>
-<html lang="pt-br">
-<head>
-<meta charset="UTF-8">
-<title>Break e Continue</title>
-</head>
-	<body>
-		<script>
+
 		for(var i = 20; i > 0; i--){
 			
 			console.log(i);
@@ -31,6 +24,3 @@
 		console.log("Testando continue " + x); // Com o continue podemos pular uma instrução;
 		
 		}
-		</script>
-	</body>
-</html>

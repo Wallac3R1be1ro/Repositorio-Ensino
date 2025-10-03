@@ -1,11 +1,3 @@
-<!DOCTYPE html>
-<html lang="pt-br">
-<head>
-<meta charset="UTF-8">
-<title>Function no JS</title>
-</head>
-	<body>
-		<script>
 			/*
 			Funções são blocos de código reutilizáveis;
 			Ou seja, evitamos a repetição da lógica de um programa em diversas
@@ -40,6 +32,3 @@
 			console.log(somaDois);
 			
 			console.log(soma(4, 5));
-		</script>
-	</body>
-</html>

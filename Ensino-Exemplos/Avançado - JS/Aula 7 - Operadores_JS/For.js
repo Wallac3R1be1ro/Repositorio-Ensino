@@ -1,11 +1,4 @@
-<!DOCTYPE html>
-<html lang="pt-br">
-<head>
-	<meta charset="UTF-8">
-	<title>Estrutura For</title>
-</head>
-	<body>
-	<script>
+
 		for(var i = 0; i < 10; i++){
 		
 			console.log("Repetindo for: " + i);
@@ -22,6 +15,3 @@
 		for(var x = 5; x < 100; x *= 3) {
 			console.log(x);
 		}
-	</script>
-	</body>
-</html>

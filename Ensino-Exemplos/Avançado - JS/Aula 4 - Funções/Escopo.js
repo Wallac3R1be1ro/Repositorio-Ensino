@@ -1,15 +1,6 @@
-<!DOCTYPE html>
-<html lang="pt-br">
-<head>
-	<meta charset="UTF-8">
-	<title>Escopo no JS</title>
-</head>
-<body>
-	<script>
-	
-		/*No JavaScript podemos ter vários escopos:
-		O global, que é iniciado em toda a aplicação, e os locais,
-		que podem existir em várias instruções como as funções;*/
+/*No JavaScript podemos ter vários escopos:
+O global, que é iniciado em toda a aplicação, e os locais,
+que podem existir em várias instruções como as funções;*/
 		
 		//Variaveis livres de dependências são Globais
 		var x = 1;
@@ -40,7 +31,3 @@
 		}
 		
 		console.log(p);
-	
-	</script>
-</body>
-</html>

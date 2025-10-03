@@ -1,15 +1,8 @@
-<!DOCTYPE html>
-<html lang="pt-br">
-<head>
-	<meta charset="UTF-8">
-	<title>Operador OR(||)</title>
-</head>
-<body>
-	<script>
-		
-		<!--O Operador lógico || é conhecido também como OR-->
+
+		/*O Operador lógico || é conhecido também como OR-->
 		<!--Ele retorna true caso uma das operações retorne verdadeiro-->
-		<!--O OR retorna false apenas se as duas expressões são falsas-->
+		<!--O OR retorna false apenas se as duas expressões são falsas*/
+		
 		var idade = 14;
 		var nome = "João";
 		
@@ -24,6 +17,3 @@
 		} else {
 			console.log("Não entrou");
 		}
-	</script>
-</body>
-</html>
