@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cálculo Nota</title>
+</head>
+<body>
+    <section>
+        <form name="myAluno">
+            <label for="nome">Nome:</label>
+            <input type="text" id="nome" name="nome"><br>
+            <label for="nota1">Nota P1:</label>
+            <input type= "number" id="nota1" name="nota1"  min="0" max="10"><br>
+            <label for="nome">Nota P2:</label>
+            <input type= "number" id="nota2" name="nota2"  min="0" max="10"><br>
+            <button name="submit" id="submit">Salvar</button>
+        </form>
+    </section>
+        <span id="resultado"></span>
+    <script>
+        // Salvar formulário
+        const myAluno = document.forms.namedItem('myAluno');
+        myAluno.addEventListener('submit', event =>{
+            event.preventDefault();
+
+            // Nome do Aluno
+            const nome = String(event.target.nome.value);
+            console.log(event.target.nome.value);
+            // Converte o valor do nota 1 para número
+            const nota1 = Number(event.target.nota1.value);
+            console.log(event.target.nota1.value);
+            // Converte o valor do nota 2 para número
+            const nota2 = Number(event.target.nota2.value);
+            console.log(event.target.nota2.value);
+
+
+            let resultado = nota1 + nota2;
+            document.getElementById(`resultado`).textContent = resultado;
+        });
+    </script>
+</body>
+</html>

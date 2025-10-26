@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Atividade com Number</title>
+</head>
+<body>
+    <section>
+        <form name="myForm">
+            <input type = "number" placeholder="escolha um número" name="valor">
+            <button>Salvar</button>
+        </form>
+    </section>
+    <script>
+
+        // Salvar formulário
+        const myform = document.forms.namedItem('myForm');
+        myform.addEventListener('submit', event =>{
+            event.preventDefault();
+            // Converte o valor do input para número
+            const resultado = Number(event.target.valor.value);
+
+            console.log(event.target.valor.value);
+            console.log(`Raiz quadra de ${event.target.valor.value} é:`, resultado ** (1/2));
+            console.log(`O valor ${resultado} é inteiro?`, Number.isInteger(resultado));
+        });
+    </script>
+</body>
+</html>
